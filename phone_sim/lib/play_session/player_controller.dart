@@ -14,8 +14,8 @@ import 'dart:async';
 /// and saves them to an injected persistence store.
 class PlayerController extends ChangeNotifier {
   static final _log = Logger('PlayerController');
-  // static final _host = "192.168.160.57";
-  static final _host = "127.0.0.1";
+  static final _host = "192.168.160.57";
+  // static final _host = "127.0.0.1";
   static const String _chars = 'ABCDEF1234567890';
   final Random _rnd = Random();
 
